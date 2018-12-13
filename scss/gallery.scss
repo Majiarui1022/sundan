@@ -1,0 +1,223 @@
+$usual:1200px;
+$sizeColor:#313131;
+$usualSize:12px;
+$middleSized:14px;
+$bigSized:16px;
+$border:1px solid #e1e1e1;
+$borderTwo:1px dashed #e1e1e1;
+$borderThree:1px solid #eb2c3a;
+$borderFour:1px solid #c1c1c1;
+
+//sass and stylus syntax are supported too
+/*提示信息start*/
+@charset "UTF-8";
+.tag_menu{
+    width: 100%;
+    height:145px;
+    padding:40px 0px;
+    line-height: 33px;
+    background: white;
+}
+.tag_menuBox{
+    width:$usual;
+    height:100%;
+    margin:0 auto;
+}
+.Your_Choice{
+    overflow: hidden;
+    margin-bottom: 10px;
+    dl{
+        overflow: hidden;
+        dt{
+            float: left;
+            color: $sizeColor;
+            font-size:$middleSized;
+            font-weight: bold;
+        }
+        div{
+            float: left;
+        }
+    }
+}
+.Your_ChoiceOne{
+    border:$border;
+    font-size:$usualSize;
+    color:$sizeColor;
+    padding: 0 0 0 10px;
+    margin-left: 5px;
+}
+.brand{
+    width: 100%;
+    height:104px;
+    border:$border;
+    dl{
+        height:40px;
+        overflow: hidden;
+        line-height: 40px;
+        dt{
+            background: #f5f5f5;
+            width:120px;
+            float: left;
+            padding-left: 18px;
+            font-weight: bold;
+        }
+        dd{
+            width: 1052px;
+            float: left;
+            font-size: $usualSize;
+            border-top: $borderTwo;
+            border-bottom: $borderTwo;
+            padding:6px 0;
+            span{
+                margin-right: 65px;
+                display: inline-block;
+                color: $sizeColor;
+            }
+        }
+        .brand_ddOne{
+            padding-left: 25px;
+        }
+    }
+    .brand_dlTwo{
+        height:65px;
+        dt{
+            height:64px;
+        }
+        dd{
+            padding-left: 10px;
+            span{
+                width: 117px;
+                height:47px;
+                border: $border;
+                text-align: center;
+                line-height: 47px;
+                margin:0;
+            }
+        }
+    }
+}
+/*提示信息end*/
+/*商品列表start*/
+.product_listBOx{
+    width: 100%;
+    .product_list{
+        width: 1200px;
+        margin:0 auto;
+        margin-top:28px;
+        .product_filtrate{
+            width: 100%;
+            background:white;
+            overflow: hidden;
+            div{
+                float: left;
+            }
+            span{
+                display: inline-block;
+                padding-left: 30px;
+                padding-right: 30px;
+                border-right:$border;
+                line-height: 43px;
+                text-align: center;
+                font-size: $usualSize;
+            }
+        }
+    }
+}
+
+
+.product_listzhuti{
+    margin-top:10px;
+    ul{
+        overflow: hidden;
+        li{
+            position: relative;
+            width: 277px;
+            height:376px;
+            background: white;
+            float: left;
+            margin-right: 30px;
+            margin-bottom: 40px;
+            cursor: pointer;
+            .product_images{
+                margin:0 40px;
+                img{
+                    width: 200px;
+                    height:200px;
+                }
+            }
+            .goods_bq{
+                width: 100%;
+                height:70px;
+                .bq_Left{
+                    display: inline-block;
+                    height:17px;
+                    line-height:17px;
+                    font-size: $usualSize;
+                    padding:0 5px;
+                    margin-left: 10px;
+                }
+                .bq_Left:first-child{
+                    border: $borderThree;
+                    color:#eb2c3a;
+                }
+                .bq_Left:last-child{
+                    border:$borderFour;
+                    color:#c1c1c1;
+                }
+            }
+            .goods_name{
+                h3{
+                    padding-left: 10px;
+                    height:50px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    color:$sizeColor;
+                    overflow: hidden;
+                    font-size: $middleSized;
+                    
+                }
+            }
+            .price_fatherbox{
+                width: 100%;
+                height:50px;
+                overflow: hidden;
+                .price_box{
+                    height:100%;
+                    float: left;
+                    line-height: 50px;
+                    padding-left: 20px;
+                    ins{
+                    color: #fc3637;
+                    font-size: $middleSized;
+                    text-decoration: none;
+                    font-weight: bold;
+                    }
+                }
+            }
+            .duibi{
+                position: absolute;
+                top:45px;
+                right:12px;
+                display: none;
+                a{
+                    display:block;
+                    width: 35px;
+                    height:35px;
+                    line-height:35px;
+                    font-size: $usualSize;
+                    border: $border;
+                    text-align: center;
+                    margin-bottom: 5px;
+                    color:#c1c1c1;
+                }
+                a:first-child{
+                    background: #00bbd7;
+                }
+            }
+        }
+        li:nth-child(4n){
+            margin-right: 0px;
+    }
+    }
+}
+/*商品列表end*/

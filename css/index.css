@@ -1,0 +1,386 @@
+	@charset "utf-8";
+	body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	    margin:0;
+	    padding:0;
+	}
+	body,html{
+		width: 100%;
+	}
+	body{
+	    font-family:"微软雅黑",Arial;
+		background: #f3f3f3;
+	}
+	a{
+    	text-decoration:none;
+	}
+	ul,ol{
+	    list-style:none;
+	}
+	img{
+	    border:none;
+}
+
+		
+			
+
+
+
+			.fix-car-moren{
+				position: fixed;
+				right: 0;
+				height:100%;
+				width: 40px;
+				top:0;
+				z-index:99999;
+				background: #000;
+				padding-top:260px;
+			}
+			.shoppCarts i{
+				display: block;
+			}
+			.shoppCarts{
+				width: 30px;
+				text-align: center;
+				color:white;
+				line-height: 26px;
+				padding-bottom: 8px;
+				border-bottom: 1px solid #666;
+				padding:0 5px;
+				cursor: pointer;
+			}
+			.shoppNumber{
+				width: 100%;
+				height:16px;
+				border-top-left-radius: 10px;
+				border-bottom-left-radius: 10px;
+				border-bottom-right-radius: 10px;
+				border-top-right-radius: 10px;
+				display: block;
+				margin-top:5px;
+			}
+			.fivedegstar{
+				padding:5px 0;
+				text-align: center;
+				border-bottom: 1px solid #666;
+				cursor: pointer;
+			}
+			.peopie_server{
+				width: 30px;
+				text-align: center;
+				padding:8px 5px;
+				margin: 0 auto;
+				border-bottom: 1px solid #666;
+				color: white;
+				cursor: pointer;
+			}
+			.peopie_server i{
+				display: block;
+			}
+			.fix_bottom{
+				width: 100%;
+				height:150px;
+				margin-top:285px;
+				cursor: pointer;
+				color:white;
+			}
+			.fix_bottom div{
+				height:50px;
+				line-height: 50px;
+				text-align: center;
+			}
+
+/*顶部*/
+
+			.sort_father{
+				width: 200px;
+				background: #ecedee;;
+				display: inline-block !important;
+				z-index: 33;
+				position: absolute;
+				left: 0px;
+    			top: 40px;
+    			color: black;
+			}
+			/*轮播图*/
+			/*.slider{
+				width: 100%;
+				height:378px;
+				position: relative;
+			}
+			.slider img{
+				width: 100%;
+				height:100%;
+				position: absolute;
+			}
+			.slider{
+				margin-bottom: 10px;
+			}*/
+			
+		    .swiper-container {
+		      width: 100%px;
+		      height: 380px;
+		    }
+		    .swiper-slide {
+		      background-position: center;
+		      background-size: cover;
+		    }
+			
+			/*轮播图*/
+			.porint{
+				z-index: 33;
+				overflow: hidden;
+			}
+			.porint li{
+				z-index: 33;
+				float: left;
+				width: 20px;
+				height:20px;
+				border-radius: 50%;
+				background: red;
+				text-align: center;
+			}
+			.menu_box{
+				width: 100%;
+				background: #f3f3f3;
+				position: relative;
+			}
+			/*外侧快速访问锚点*/
+			.tool{
+				position: fixed;
+				left: 290px;
+				top:140px;
+				width: 40px;
+				background: black;
+				background: white;
+				display:none;
+			}
+			.tool li{
+				text-align: center;
+				line-height: 40px;
+				margin-bottom: 5px;
+				background: #626262;
+			}
+			.tool li a{
+				color:white;
+				font-size: 12px;	
+			}
+			.tool li:last-child{
+				margin: 0;
+			}
+			.menu{
+				width: 1200px;
+				margin:0 auto;	
+			}
+			.tit{
+				border-bottom: 1px solid #e8e8e8;
+				margin-top:18px;
+			}
+			.menu_tit{
+				font-size: 24px;
+				font-weight: 600;
+			}
+			.tit span{
+				color: #919191;
+				font-size: 12px;
+				display: inline-block;
+				background:url(img/porint.jpg)repeat-x scroll bottom left;
+				padding:10px 0;
+			}
+			/*推荐中每个手机的盒子*/
+			.recommend_UI{
+				overflow: hidden;
+			}
+			.recommend_UI li{
+				width: 270px;
+				height:300px;
+				padding-top:20px;
+				padding-bottom: 30px;
+				background: white;
+				float: left;
+				padding-left: 10px;
+				padding-right: 10px;
+				margin-right: 13px;
+				margin-top:10px;
+			}
+			.recommend_UI li:nth-child(4n){
+				margin-right: 0;
+			}
+			.recommend_UI li div{
+				text-align: center;
+			}
+			.recommend_UI li img{
+				width: 215px;
+				height:215px;
+				margin-bottom:10px;
+			}
+			.recommend_UI li div h3{
+				font-size: 14px;
+				line-height:16px;	
+				font-weight: 400;
+				clear: both;
+				color:#313131;
+				text-align: left;
+			}
+			.recommend_UI li div p{
+				font-size: 14px;
+				color:#aeaeae;
+				height:20px;
+				text-align: left;
+				overflow: hidden;
+				margin-top:5px;
+				margin-bottom: 5px;
+			}
+			.recommend_UI li div .price{
+				color:#fc3538;
+				font-size: 14px;
+				text-align: left;
+				font-weight: 600;
+			}
+			.presentation_iphone{
+				/*display: none;*/
+			}
+			.presentation_iphoneTwo{
+				display: none;
+			}
+			.recommend_UI li .presentation_iphoneTwo .price{
+				text-align: center;
+				margin-top:10px;
+				margin-bottom: 10px;
+			}
+			.join_Shop{
+				width: 200px;
+				height:40px;
+				line-height: 40px;
+				color: white;
+				background: #00bbd7;
+				text-align: center;
+				margin:0 auto;
+			}
+			.imgDom_Box,.join_Shop{
+				cursor:pointer;
+			}
+			/*中间突然的图片*/
+			.tu_Img{
+				width: 100%;
+				height:170px;
+				margin:0 auto;
+				background: url(../img/249b0612a2fcb765ffab7a6435b4c1ccaceb4f93.jpg);
+				margin-top:10px;
+			}
+			/*第二大板块  发现部分*/		
+			.home_surpriseSon{
+				width: 1200px;
+				margin:0 auto;
+			}
+			.home_surprise{
+				width: 100%;
+			}
+			.discover_tit{
+				margin-top:40px;
+				margin-bottom:10px;
+			}
+			.discover_tit h3{	
+				font-weight: 400;
+				clear: both;
+				color:#313131;
+				text-align: left;
+				font-size: 24px;
+    			font-weight: 600;
+			}
+			.discover_titbotRight{
+				float:right;
+			}
+			.discover_titBottom{
+				border-bottom: 1px solid #919191;
+			}
+			.discover_titBottom span{
+			    color: #919191;
+			    font-size: 12px;
+			    display: inline-block;
+			    background: url(img/porint.jpg)repeat-x scroll bottom left;
+			    padding: 5px 0;
+			}
+			.discover_titbotRight a{
+				margin-left: 40px;
+				font-size: 12px;
+				color:#919191;
+			}
+			.discover_menu{
+				width: 100%;
+				overflow: hidden;
+				margin-bottom: 10px;
+			}
+			/*小版块左侧*/
+			.discover_menuLeft{
+				width:50%;
+				float: left;
+				margin-right: 10px;
+			}
+			.menuLeft_FirstDiv{
+				margin-bottom: 10px;
+			}
+			.menuLeft_SecondDiv{
+				margin-right: 10px;
+			}
+			.discover_menuLeft div{
+				float: left;
+			}
+			/*小版块右侧*/
+			.discover_menuRight{
+				width: 590px;
+				float: left;
+				overflow: hidden;
+			}
+			.menuRight_Top div{
+				float: left;
+			}
+			.menuRight_Top{
+				overflow: hidden;
+				float: left;
+			}
+			/*中间*/
+			.menuRight_Center{
+				margin:10px 0;
+				float: left;
+			}
+			.menuRight_Bottom{
+				overflow: hidden;
+				float: left;
+			}
+			.menuRight_Bottom div{
+				float: left;
+			}
+			/*板块   味*/
+			.taste_menu{
+				overflow: hidden;
+			}
+			.taste_menuLeft{
+				float: left;
+				margin-right: 20px;
+			}
+			.taste_menuRight{
+				float: left;
+			}
+			.tasteRight_Bottom,.tasteLeft_Bottom{
+				margin-top: 20px;
+			}
+			.tu{
+				margin-top:10px;
+			}
+			/*四季板块*/
+			.four_Seasons{
+				float: left;
+				margin-top:10px;
+				margin-right: 10px;
+			}
+			.discover_menu{
+				display: inline-block;
+			}
+			.discover_menu ul{
+				display: inline-block;
+			}
+			.discover_menuUI li{
+				margin-right: 0;
+				margin-left: 10px;
+			}
+			

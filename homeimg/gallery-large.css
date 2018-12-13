@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*列表页 shijun*/
+.inner-wrap {
+    width: 1520px;
+}
+/*顶部*/
+.page-header .inner-wrap {
+    width: 1520px;
+    margin: 20px auto;
+}
+.page-header .inner-wrap .header-main {
+    width: 1270px;
+    margin-left: 40px;
+}
+.page-header .inner-wrap .header-main .searchbar .x-input {
+    width: 842px;
+}
+
+/*导航*/
+.page-nav .inner-wrap {
+    width: 1520px;
+}
+
+/*商品分类*/
+.new-made {
+    width: 1520px;
+}
+
+/*商品列表*/
+.list_news_row {
+    width: 100%;
+}
+.list_news_row .inner-wrap {
+    width: 1520px;
+}
+li.goods-item {
+    margin-right: 30px;
+}
+li.goods-item:nth-child(5n) {
+    margin-right: 0;
+}
+
+/*猜你喜欢*/
+.list_news_row .new_main_ul {
+    width: 1520px;
+}
+.list_news_row .new_main_ul .new_main_body {
+    width: 1514px!important;
+}
+.list_news_row .new_main_ul .new_main_body.tejia ul li {
+    width: 244px!important;
+}
+.list_news_row .new_main_ul .new_main_body.tejia ul li.guess-item {
+    width: 244px!important;
+}
+
+.filter-entr-width {
+    width: 1080px;
+}
+.filter-lists-container .filter-unfold-load {
+    height: 92px;
+    margin-bottom: 6px;
+}

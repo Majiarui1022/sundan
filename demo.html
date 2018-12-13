@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*p{
+				width: 200px;
+				height:200px;
+				background:red;
+			}*/
+			.btn2{
+				width: 600px;
+				height:600px;
+				position: relative;
+			}
+			div img{
+				width: 600px;
+				height:600px;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="btn2">
+			<img src="img/157eddf3b299ad604c0dc6284b8f549ca2f0a487.jpg"/>
+			<img src="img/070ae54200edb53ed3e056ad6198cf2b0cf16e1b.jpg"/>
+			<img src="img/43770583be857e2b3b056c5c15b209a2e2354f4d.jpg"/>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js" ></script>
+<script type="text/javascript">
+	function showImg(){
+		let count = 0;
+			setInterval(function(){
+			let num = count;
+			count++;
+			if(count>$("img").length-1){
+				count = 0;
+			}
+				$(".btn2 img").each(function(){
+					$(".btn2 img").css("display","none")
+				});
+				$(".btn2 img").eq(num).fadeOut("fast","swing");
+				$(".btn2 img").eq(count).fadeIn("fast","swing");
+			},1000)
+		}
+		
+		window.onload =function(){
+			showImg();
+		}
+</script>

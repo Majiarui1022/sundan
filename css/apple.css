@@ -1,0 +1,63 @@
+.menu_box{
+	width: 100%;
+	background: white;
+}
+.menu{
+	width: 1200px;
+	margin:0 auto;
+}
+.menu_Top{
+	width: 100%;
+	height:100px;
+	float: left;
+}
+
+.menu_TopLeft{
+	float: left;
+}
+.menu_TopRight{
+	float: right;
+	line-height: 100px;
+}
+.menu_TopLeft a{
+	float: left;
+	margin-right: 34px;
+	width: 84px;
+	line-height: 100px;
+	color:#000000;
+	font-size: 16px;
+	text-align: center;
+}
+.product_r{
+	background: #f0f0f0;
+	display: inline-block;
+	margin:30px 10px 20px 0;
+	padding-bottom: 20px;
+}
+.product_r p{
+	width: 288px;
+	height:84px;
+	line-height: 84px;
+	font-size: 24px;
+	text-align: center;
+}
+.product_r img{
+	width: 250px;
+	height:250px;
+    margin: 0 auto 35px;
+    display: block;
+    position: relative;
+}
+.product_r li{
+	margin-left: 83px;
+	background: url(../appleimg/ico1.png) no-repeat left center;
+	text-indent: 30px;
+	line-height: 24px;
+}
+.product_r li a{
+	color:#8a8aa3;
+	font-size: 14px;
+}
+.product_p{
+	margin-right: 0;
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<link rel="stylesheet" type="text/css" href="css/public.css"/>
+			<style type="text/css">
+				.top-box{
+					width: 100%;
+					height:100px;
+					border-bottom:2px solid #33353d;
+					padding-top:36px;
+				}
+				.top-box-menu{
+					width: 1200px;
+					height: 100%;
+					margin:0 auto;
+				}
+				.top-box-menu img{
+					float: left;
+					margin-right:85px;
+				}
+				.top_words{
+					float: left;
+					padding-top:20px;
+					color:#303030;
+					max-width: 955px;
+					height:40px;
+				}
+				.top_words h3{
+					margin-right: 25px;
+					font-size: 30px;
+					float: left;
+				}
+				.words{
+					float: left;
+					width: 780px;
+					font-size: 12px;
+				}
+				.dingdan{
+					width: 280px;
+					float: right;
+					color: white;
+					margin-top:20px;
+					font-size: 12px;
+					text-indent: 8px;
+				}
+				.dingdan div{
+					height:20px;
+					float: left;
+				}
+				.myShopping{
+					background: #00bbd7;
+					width: 85px;
+				}
+				.writeIndent{
+					width: 96px;
+					background: #000000;
+				}
+				.successIndet{
+					width: 96px;
+					background: #000000;
+				}
+				.shopping_menu{
+					width: 1200px;
+					margin:0 auto;
+				}
+				.shopping_menu table{
+					background: white;
+					line-height: 40px;
+				}
+				.shangpin_table{
+					line-height: 129px;
+ 					text-align: center;
+					table-layout: fixed;
+					margin-top:5px;
+				}
+				table{
+					width: 100%;
+					table-layout: fixed;
+				}
+				table th:first-child{
+					width: 50px;
+				}
+				table th:nth-child(2){
+					width: 343px;
+				}
+				table td:first-child{
+					width: 50px;
+				}
+				table td:nth-child(2){
+					width: 343px;
+				}
+				.images img{
+					width: 80px;
+					height:80px;	
+				}
+				.imgsge_words{
+					width: 220px;
+					line-height: 20px;
+					font-size: 14px;
+					float: left;
+				}
+				.images{
+					float: left;
+					font-size: 12px;
+				}
+				.youhui{
+					font-size: 12px;
+				}
+				.numbuer_shang{
+					width: 70px;
+					height:30px;
+					text-align: center;
+				}
+				.shopping_bottom{
+					background: white;
+					overflow: hidden;
+					margin-top:10px;
+				}
+				.shopping_bottom div{
+					overflow: hidden;
+				}
+				.shopping_bottomLeft{
+					float: left;
+					line-height: 55px;
+				}
+				.shopping_bottomLeft a{
+					margin-right: 20px;
+					text-indent: 20px;
+				}
+				.shopping_bottomRight{
+					float: right;
+					line-height: 55px;
+				}
+				.shopping_bottomRight h3{
+					display: inline-block;
+					font-size: 30px;
+					color:#fc3538;
+				}
+				.shopping_bottom p{
+					line-height: 32px;
+					text-indent: 55px;
+				}
+				.settle_accounts{
+					width: 140px;
+					height:50px;
+					background: #00bbd7;
+					color:white;
+					border:0;
+				}
+				.goOnShopping{
+					color:black;
+				}
+			</style>
+		<title></title>
+	</head>
+	<body>
+		
+		<div class="top-box">
+			<div class="top-box-menu">
+				<img src="img//90e6da5108a61d0cefc48533af14682cb5ccc059.png"/>
+				<div class="top_words">
+					<h3>我的购物车</h3>
+					<div class="words">
+						商品从门店或者发货，我们将尽快发货。门店自提订单，24小时内将提货码发送至您的手机，请您留意手机短信。由于市场变化及各种合理商业努力都难以控制的因素的影响，商城无法保证用户提交的订单希望购买的商品都有货；如用户拟购买的商品缺货，用户和商家都可取消订单。
+					</div>
+				</div>
+				<div class="dingdan">
+					<div class="myShopping">我的购物车</div>
+					<div class="writeIndent">填写核对订单</div>
+					<div class="successIndet">成功提交订单</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="shopping_menu">
+			<table border="0" cellspacing="0" cellpadding="0" class="shangpinHeader">
+				<tr>
+					<th>
+						<input type="checkbox" name="" id="" value="" />
+					</th>
+					<th colspan="2">
+						<p class="p_father" style="display: inline-block;">
+							商品名称
+						</p>
+						<p style="float: left;">全选</p>
+					</th>
+					<!--195     128-->
+					<th>单价</th>
+					<th>优惠</th>
+					<th>数量</th>
+					<th>小计</th>
+					<th>积分</th>
+					<th>操作</th>
+				</tr>
+			</table>
+			<div class="zhuti">
+				
+			</div>
+			<div class="shopping_bottom">
+				<div>
+					<div class="shopping_bottomLeft">
+						<input type="checkbox" name="" id="" value="" />
+						<a href="">全选</a>
+						<a href="">凑单商品</a>
+						<a href="">删除选中商品</a>
+						<span>共 <span class="amount">1</span> 件商品，已选择 <span class="amount">1</span> 件</span>
+					</div>
+					<div class="shopping_bottomRight">
+						<span>合计 (不含运费) ：<h3>￥<span class="total_price">999.10</span></h3> 元</span>
+						
+						<a href="" class="goOnShopping">继续购物</a>
+						<input type="button" name="" id="" value="去结算" class="settle_accounts"/>
+					</div>
+				</div>
+				
+				<p>
+					订单优惠金额<span>￥0.00</span>
+				</p>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="footer_Box"></div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js" ></script>
+<script type="text/javascript" src="js/Cookie.js" ></script>
+<script>
+
+	
+	
+$.ajax({
+		type:"get",
+		url:"php/getShoppingCart.php",
+		async:true,
+		data:null,
+		success:function(data){
+			var goodsId = getCookie("goodsId");
+			if(goodsId!=null){
+				console.log(data)
+				//var productlist = '';
+				for(var i=0;i<data.length;i++){
+					console.log(data[i].goodsPrice)
+						chuang(data[i].goodsName,data[i].goodsPrice,data[i].goodsImg,data[i].goodsId,data[i].goodsType);
+				}
+			};
+		},
+		dataType:"json",
+	});
+	
+	
+	function chuang(goodsName,price,Img,id,goodsType){
+		let chuangjian = (`<table border='0' cellspacing='0' cellpadding='0' class='shangpin_table'>
+					<tr>
+					<td>
+						<input type='checkbox' name='' id='' value='' />
+					</td>
+					<td colspan='2'>
+						<div class='images'>
+							<img src='${Img}'/>
+						</div>
+						<div class='imgsge_words'>'${goodsName}'</div>
+					</td>
+					<td class='Prices'>￥<span>'${price}'</span></td>
+					<td class='discounts'>￥<span>859.90</span></td>
+					<td class='numbersss'><input type='number' name='' id='' value='1' class='numbuer_shang'/></td>
+					<td class='subtotal'>￥<span>7739.10</span></td>
+					<td>-</td>
+					<td><a href='javascrit:void(0)'>收藏</a>|<a href='javascrit:void(0)' class='removeTable'>删除</a></td>
+				</tr>
+			</table>`)
+			$(".zhuti").append(chuangjian)
+			qian()
+			shan(goodsType,id)
+	}
+	
+	
+	
+	function qian(){
+		$(".numbuer_shang").each(function(){
+			$(this).click(function(){
+				if($(this).val()<=0){
+					$(this).val(0)
+					$(this).parents("tr").children(".subtotal").children("span").html(0);
+				}else{
+					let onePrice = parseInt($(this).parents("tr").children(".Prices").children("span").html()*$(this).parents("tr").children(".numbersss").children(".numbuer_shang").val());
+					let yohui =parseInt( $(this).parents("tr").children(".discounts").children("span").html());
+					$(this).parents("tr").children(".subtotal").children("span").html(onePrice-yohui);
+				}
+					let values = 0;
+				for(var i =0;i<$(".numbuer_shang").length;i++){
+					values+=parseInt($(".numbuer_shang").eq(i).val());
+				}
+					$(".amount").html(values);
+					let zongjia = 0;
+				for(var j= 0;j<$(".subtotal").children("span").length;j++){
+					zongjia+=parseInt($(".subtotal").eq(j).children("span").html());
+				}
+				$(".total_price").html(zongjia);
+			})
+		})
+	}
+	function shan(goodsType,inds){
+		$(".removeTable").each(function(){
+			$(this).click(function(){
+				let del = window.confirm("您确定删除吗？");
+				if(del){
+					let vipName =goodsType;
+					let goodsId =inds;
+					console.log(goodsType,inds)
+					$.ajax({
+					type:"get",
+					url:"php/deleteGoods.php",
+					async:true,
+					data:"vipName="+vipName+"&goodsId="+goodsId,
+					success:function(data){
+						console.log(vipName,goodsId)
+						console.log(data)
+						$(".removeTable").parents("td").parents("tr").parents("table").remove();
+					},
+					});
+				}
+			})
+		})
+	}
+//	<div class='shoppimgmenu''>
+//				<input type='checkbox'  id=''  class='checkall'/>
+//				<div class='showImg'><img id= src='${Img}'/></div>
+//				<p class='Product'>${Product}</p>
+//					<div class='colorSize'>
+//					<p>型号:<span class='xinghao'>${xinghao}</span></p>
+//				</div>
+//				<p class='manny'>￥<span class='productPrice'>${price}</span></p>
+//				<div class='quantity'>
+//					<input type='number'  class='num' value='1' />
+//					<p class='Onekind_father'>￥<span class='Onekind'>${price}</span></p>
+//				</div>
+//				<a href='javascripy:void(0)' class='deletes'>删除</a></div>
+	
+
+	$(function(){
+		$(".footer_Box").load("bottom.html")
+	})
+</script>

@@ -1,0 +1,266 @@
+.commodity_box {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  background: white; }
+  .commodity_box .commodity_menu {
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 20px; }
+    .commodity_box .commodity_menu .commodity_menuLeft {
+      width: 60%;
+      float: left; }
+      .commodity_box .commodity_menu .commodity_menuLeft .commodity_ImgFather {
+        width: 100%;
+        height: 500px; }
+      .commodity_box .commodity_menu .commodity_menuLeft .commodity_Img {
+        width: 500px;
+        height: 500px;
+        background: url(../homeimg/005035e4986ce679bc0be07c82b7cc026a9205f1.jpg) no-repeat;
+        background-size: 500px 500px;
+        border: 1px solid black;
+        position: relative;
+        float: left;
+        left: 108px; }
+        .commodity_box .commodity_menu .commodity_menuLeft .commodity_Img .commodity_Imgjing {
+          width: 200px;
+          height: 200px;
+          background: pink;
+          opacity: 0.5;
+          position: absolute;
+          display: none;
+          left: 0;
+          top: 0; }
+        .commodity_box .commodity_menu .commodity_menuLeft .commodity_Img .commodity_ShowImg {
+          width: 500px;
+          height: 500px;
+          border: 1px solid black;
+          position: absolute;
+          left: 120%;
+          background: url(../homeimg/005035e4986ce679bc0be07c82b7cc026a9205f1.jpg) no-repeat;
+          background-size: 1450px 1450px;
+          background-position-x: 0px;
+          background-position-y: 0px;
+          display: none;
+          z-index: 200; }
+      .commodity_box .commodity_menu .commodity_menuLeft .commodity_ImgBottom {
+        margin-top: 30px; }
+        .commodity_box .commodity_menu .commodity_menuLeft .commodity_ImgBottom ul {
+          margin-bottom: 30px;
+          overflow: hidden; }
+          .commodity_box .commodity_menu .commodity_menuLeft .commodity_ImgBottom ul li {
+            float: left;
+            width: 60px;
+            height: 60px;
+            border: 1px solid #DDD;
+            margin: 0px 4px 0px 0px; }
+        .commodity_box .commodity_menu .commodity_menuLeft .commodity_ImgBottom .commodity_ImgBottomTwo {
+          width: 50%; }
+        .commodity_box .commodity_menu .commodity_menuLeft .commodity_ImgBottom .commodity_ImgBottomTwoRight {
+          float: right; }
+    .commodity_box .commodity_menu .commodity_menuRight {
+      width: 40%;
+      float: left; }
+      .commodity_box .commodity_menu .commodity_menuRight h3 {
+        font-size: 18px;
+        font-weight: 400; }
+      .commodity_box .commodity_menu .commodity_menuRight .Price {
+        display: inline-block;
+        width: 100%;
+        height: 64px;
+        background: #f2f2f2;
+        color: #fc3637;
+        padding-left: 30px; }
+        .commodity_box .commodity_menu .commodity_menuRight .Price ins {
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 62px;
+          text-decoration: none; }
+      .commodity_box .commodity_menu .commodity_menuRight .youhui {
+        padding: 16px 0; }
+        .commodity_box .commodity_menu .commodity_menuRight .youhui .jian {
+          display: inline-block;
+          background: #00bbd7;
+          font-size: 12px;
+          color: white;
+          padding: 5px; }
+        .commodity_box .commodity_menu .commodity_menuRight .youhui a {
+          float: right; }
+      .commodity_box .commodity_menu .commodity_menuRight lable {
+        margin-right: 22px;
+        height: 32px;
+        line-height: 32px; }
+      .commodity_box .commodity_menu .commodity_menuRight .iphone_Color {
+        margin-top: 12px;
+        font-size: 12px;
+        overflow: hidden; }
+        .commodity_box .commodity_menu .commodity_menuRight .iphone_Color lable, .commodity_box .commodity_menu .commodity_menuRight .iphone_Color .iphone_ColorLittle {
+          float: left; }
+        .commodity_box .commodity_menu .commodity_menuRight .iphone_Color .iphone_ColorLittle {
+          border: 2px solid #e1e1e1;
+          width: 30px;
+          height: 30px;
+          margin-right: 14px; }
+      .commodity_box .commodity_menu .commodity_menuRight .iphone_size {
+        margin-top: 12px;
+        font-size: 12px;
+        overflow: hidden; }
+        .commodity_box .commodity_menu .commodity_menuRight .iphone_size lable, .commodity_box .commodity_menu .commodity_menuRight .iphone_size .iphone_ColorLittle {
+          float: left; }
+        .commodity_box .commodity_menu .commodity_menuRight .iphone_size .iphone_ColorLittle {
+          border: 2px solid #e1e1e1;
+          margin-right: 14px;
+          padding: 5px; }
+      .commodity_box .commodity_menu .commodity_menuRight .iphone_num {
+        margin-top: 12px;
+        font-size: 12px;
+        overflow: hidden; }
+        .commodity_box .commodity_menu .commodity_menuRight .iphone_num lable {
+          float: left; }
+        .commodity_box .commodity_menu .commodity_menuRight .iphone_num .iphone_Number {
+          width: 48px;
+          height: 33px;
+          border: 1px solid #e1e1e1;
+          text-align: center;
+          display: inline-block;
+          line-height: 33px;
+          float: left; }
+        .commodity_box .commodity_menu .commodity_menuRight .iphone_num .reduce, .commodity_box .commodity_menu .commodity_menuRight .iphone_num .add {
+          width: 33px;
+          height: 33px;
+          border: 1px solid #e1e1e1;
+          display: inline-block;
+          text-align: center;
+          line-height: 33px;
+          float: left;
+          cursor: pointer; }
+        .commodity_box .commodity_menu .commodity_menuRight .iphone_num .goodsCont {
+          height: 30px;
+          display: inline-block; }
+        .commodity_box .commodity_menu .commodity_menuRight .iphone_num span {
+          line-height: 35px;
+          margin-left: 15px; }
+      .commodity_box .commodity_menu .commodity_menuRight .expressage p {
+        font-size: 12px;
+        line-height: 38px;
+        margin-top: 16px; }
+      .commodity_box .commodity_menu .commodity_menuRight .iphone_introdice {
+        padding-left: 5px;
+        border-top: 1px solid #e1e1e1;
+        border-bottom: 1px solid #e1e1e1; }
+        .commodity_box .commodity_menu .commodity_menuRight .iphone_introdice ul {
+          margin: 10px; }
+          .commodity_box .commodity_menu .commodity_menuRight .iphone_introdice ul li {
+            list-style: disc;
+            font-size: 12px;
+            line-height: 24px;
+            text-indent: -5px;
+            color: #666666; }
+      .commodity_box .commodity_menu .commodity_menuRight .distribution {
+        margin-top: 25px;
+        overflow: hidden; }
+        .commodity_box .commodity_menu .commodity_menuRight .distribution span {
+          float: left;
+          margin-right: 10px;
+          height: 32px;
+          line-height: 32px; }
+      .commodity_box .commodity_menu .commodity_menuRight .join_shoppBox {
+        margin-top: 23px; }
+        .commodity_box .commodity_menu .commodity_menuRight .join_shoppBox .staff_Service {
+          border: 1px solid #00bad6;
+          display: inline-block;
+          width: 100px;
+          height: 40px;
+          color: #00bad6;
+          text-align: center;
+          line-height: 40px; }
+      .commodity_box .commodity_menu .commodity_menuRight .bought, .commodity_box .commodity_menu .commodity_menuRight .join_shopp {
+        display: inline-block;
+        width: 139px;
+        height: 42px;
+        color: white;
+        text-align: center;
+        line-height: 42px;
+        margin-right: 10px; }
+      .commodity_box .commodity_menu .commodity_menuRight .bought {
+        background: #ff531b; }
+      .commodity_box .commodity_menu .commodity_menuRight .join_shopp {
+        background: #00bad6; }
+    .commodity_box .commodity_menu .iphone_introduceBottom {
+      width: 100%;
+      margin-top: 115px;
+      overflow: hidden; }
+      .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotLeft {
+        width: 280px;
+        border: 1px solid #e1e1e1;
+        margin-right: 20px;
+        float: left; }
+        .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotLeft .iphone_introduceBotLeftTit {
+          width: 100%;
+          height: 42px;
+          background: #f4f4f4;
+          font-size: 14px; }
+        .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotLeft ul li {
+          border-bottom: 1px solid #e1e1e1;
+          width: 100%;
+          height: 135px;
+          background: blue; }
+      .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight {
+        width: 896px;
+        float: left;
+        border: 1px solid #e1e1e1; }
+        .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_message {
+          width: 100%;
+          height: 54px;
+          border: 1px solid #e1e1e1; }
+          .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_message span {
+            float: left;
+            width: 128px;
+            height: 54px;
+            border-right: 1px solid #e1e1e1;
+            text-align: center;
+            line-height: 54px;
+            font-size: 16px;
+            box-sizing: border-box;
+            cursor: pointer; }
+          .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_message span:first-child {
+            background: #f7f7f7;
+            border-bottom: 2px solid #00bad6; }
+        .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_messageall {
+          padding: 30px 30px 0 50px;
+          display: none; }
+          .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_messageall .tu ul {
+            margin-top: 15px;
+            overflow: hidden; }
+            .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_messageall .tu ul li {
+              width: 360px;
+              float: left;
+              margin-right: 30px;
+              margin-top: 40px;
+              overflow: hidden; }
+              .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_messageall .tu ul li .li_left {
+                float: left; }
+                .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_messageall .tu ul li .li_left img {
+                  width: 160px;
+                  height: 160px; }
+              .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_messageall .tu ul li .li_right {
+                padding-top: 30px;
+                padding-bottom: 40px;
+                float: left; }
+                .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_messageall .tu ul li .li_right h3 {
+                  width: 170px;
+                  font-size: 15px;
+                  text-align: left;
+                  color: #313131; }
+                .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_messageall .tu ul li .li_right p {
+                  font-size: 12px;
+                  color: #898989;
+                  line-height: 55px; }
+                .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_messageall .tu ul li .li_right .li_Prise {
+                  font-weight: 600; }
+        .commodity_box .commodity_menu .iphone_introduceBottom .iphone_introduceBotRight .iphone_messageallTwo {
+          width: 100%;
+          height: 200px;
+          background: red; }
+
+/*# sourceMappingURL=commodity.css.map */

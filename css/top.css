@@ -1,0 +1,313 @@
+			
+			/*遮料层  勿删*/
+			#bigBox{
+				width: 100%;
+				height:100%;
+				position: absolute;
+				left: 0;
+				top: 0;
+				background: black;
+				opacity: 0.6;
+				display: none;
+				z-index: 2;
+			}
+			/*遮料层  勿删*/
+			.headeTop{
+				width:100%;
+				height:12px;
+				background: #f0f0f0;
+				padding-top:15px;
+				padding-bottom: 13px;
+			}
+			.headeTop_Two{
+				width: 1226px;  /* 1200px*/
+				height:40px;
+				margin:0 auto;
+				overflow: hidden;
+			}
+			.headeTop_Two img{
+				float: left;
+			}
+			.swiper-containertop {
+		      width: 500px;
+		      height: 100%;
+		      float: left;
+		    }
+		    .swiper-slidetop {
+		    	text-indent: 5px;
+		    height:40px;
+		      text-align: left;
+		      font-size: 14px;
+		      /* Center slide text vertically */
+		      display: -webkit-box;
+		      display: -ms-flexbox;
+		      display: -webkit-flex;
+		      display: flex;
+		      -webkit-box-pack: center;
+		      -ms-flex-pack: center;
+		    }
+		    .swiper-slidetop a{
+		    	color:red;
+		    }
+			/*.headeTop_Two li{
+				font-size: 14px;
+				color: #666;
+			}
+			.headeTop_Two img{
+				float: left;
+				margin-right: 12px;
+			}
+			.headeTop_Left{
+				float: left;
+				height:16px;
+				overflow: hidden;
+			}
+			.headeTop_Left li span{
+				color:red;
+			}*/
+			.headeTop_Right{
+				float: right;
+				overflow: hidden;
+			}
+			.headeTop_Right li{
+				float: left;
+				text-indent: 9px;
+				border-right: 1px solid #c9c8c8;
+				padding-left: 9px;
+			}
+			.headeTop_Right li:last-child{
+				border:0;
+			}
+			/*三角*/
+			.triangle{
+				width: 0;
+				height:0;
+				border:5px solid transparent;
+				border-top-color:#666;
+				display: inline-block;
+				margin-right:11px;
+				margin-left: 2px; 
+			}
+			.iphone{
+				font-weight: 600;
+				color: #f97703;
+				font-size: 16px;
+			}
+			/*头部*/
+			.header_BigBox{
+				width: 100%;
+				background: white;
+			}
+			header{
+				width:1196px;
+				height:96px;
+				margin: 0 auto;
+				padding-top:30px;
+				padding-bottom: 20px;
+			}
+			.header_box{
+				height:100%;
+			}
+			.logo{
+				float: left;
+				margin-right: 57px;
+			}
+			.serach{
+				float: left;
+			}
+			.search_word{
+				width: 563px;
+				height:38px;
+				padding-left: 40px;
+				font-size: 14px;
+				outline: none;
+				border: 1px solid #ccc;
+			}
+			.search_btn{
+				width: 127px;
+				height:40px;
+				text-align: center;
+				line-height: 40px;
+				font-size: 16px;
+				background: #00bbd7;
+				color: white;
+				outline: none;
+				cursor: pointer;
+				border: none;
+				margin-left: -5px;
+			}
+			.tag{
+				overflow: hidden;
+				padding:7px 0;
+			}
+			.tag span{
+				height:16px;
+				border-left: 1px solid #959595;
+				float: left;
+				margin:0 9px;
+			}
+			.tag_child{
+				float: left;
+				font-size: 12px;
+				color:#959595;
+			}
+			input button{
+				vertical-align:middle;				
+			}
+			.login_son{
+				float: left;
+				margin-left: 56px;
+				line-height: 50px;
+			}
+			.login_son h3{
+				float: left;
+				font-size: 20px;
+				color: red;
+			}
+			.login_son h3 span{
+				color:#959595;
+				display: inline-block;
+			}
+			.login_son a{
+				color:red;
+				margin-left: 20px;
+			}
+			.login{
+				float: left;
+				margin-left: 56px;
+			}
+			.login a{
+				float: left;
+				width: 33px;
+				height:40px;
+				padding:0 16px;
+				line-height: 40px;
+				font-size: 14px;
+			}
+			.login a:first-child{
+				background: #fc3538;
+				color:white;
+			}
+			.login .login_go{
+				background: white;
+				width: 31px;
+				height:38px;
+				border:1px solid #e1e1e1;
+				margin-left: 14px;
+				margin-right: 16px;
+			}
+			.login .go_shopp{
+				width: 40px;
+				height:38px;
+				border:1px solid #e1e1e1; 
+				padding:0;
+				text-align: center;
+			}
+			
+			/*public end*/
+			
+			.nav_Box{
+				width: 100%;
+				height:40px;
+				background: #33353d;
+			}
+			nav{
+				width: 1200px;
+				height:100%;
+				margin:0 auto;
+			}
+			.nav_Left{
+				float: left;
+				width: 165px;
+				height:40px;
+				background: #191a1e;
+				font-size: 14px;
+				padding-left: 35px;
+				letter-spacing: 5px;   /*字体间距*/
+				line-height:40px;
+				color:white;
+				position: relative;
+				cursor: pointer;
+			}
+			
+			/*种类*/
+			.sort_father .category .category_Bigbox{
+				display: none;
+			}
+			.category_Bigbox{
+				padding-left: 38px;
+			}
+			.sort_father{
+				width: 200px;
+				height: 380px;
+				background: #ecedee;;
+				display: inline-block;
+				z-index: 33;
+				position: absolute;
+				left: 0px;
+    			top: 40px;
+    			color: black;
+    			display: none;
+			}
+			.category{
+				height:42px;
+				line-height: 42px;
+				padding-left: 24px;
+				position: relative;
+				z-index: 999;
+			}
+			.category_BigboxTop{
+				width: 100%;
+				height:280px;
+				padding-top:10px;
+				overflow: hidden;
+			}
+			.category_BigboxTop ul{
+				float: left;
+				margin-right: 5%;
+				width: 28%;
+			}
+			.category_BigboxTop li h3{
+				border-bottom: 1px solid #EEEEEE;
+				line-height: 35px;
+				color:black;
+			}
+			.category_BigboxTop li {
+				/*line-height: 35px;*/
+				letter-spacing: 0px;
+			}
+			.category_Bigbox .category_BigboxTop li a{
+				line-height: 35px;
+				color:#666;
+			}
+			.category_BigboxBottom{
+				margin-top:14px;
+				margin-bottom: 15px;
+			}
+			.category_BigboxBottom img{
+				width: 200px;
+				height:60px;
+				margin-right: 40px;
+			}
+			/*划过效果的div中的东西*/
+			
+			/*登陆之后*/
+			.login_son{
+				float: left;
+				margin-left: 56px;
+				line-height: 50px;
+				display: none;
+			}
+			.login_son h3{
+				float: left;
+				font-size: 20px;
+				color: red;
+			}
+			.login_son h3 span{
+				color:#959595;
+				display: inline-block;
+			}
+			.login_son a{
+				color:red;
+				margin-left: 20px;
+			}

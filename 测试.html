@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*p{
+				width: 200px;
+				height:200px;
+				background:red;
+			}*/
+			.btn2{
+				width: 600px;
+				height:600px;
+				position: relative;
+			}
+			div img{
+				width: 600px;
+				height:600px;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="ss">
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+		</div>
+		<div class="btn2">
+			<img src="img/157eddf3b299ad604c0dc6284b8f549ca2f0a487.jpg"/>
+			<img src="img/070ae54200edb53ed3e056ad6198cf2b0cf16e1b.jpg"/>
+			<img src="img/43770583be857e2b3b056c5c15b209a2e2354f4d.jpg"/>
+		</div><a href="">撒大苏打大撒</a>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js" ></script>
+<script type="text/javascript">
+	$(".ss").children("a").each(function(i){
+		$(this).html(i)
+	})
+	
+	$(".btn2").mousedown(function(){
+		console.log(123)
+	},function(){
+		console.log(46)
+	})
+//	$("p").fadeOut("slow","swing");
+//	$("div").fadeIn("slow","swing");
+//		let count = 0
+//		setInterval(function(){
+//			let num = count;
+//			count++;
+//			if(count>2){
+//				count =0;
+//			}
+//			$("img").each(function(count,num){
+//				//$("img").css("opacity","0")
+//			})
+//				$("img").eq(num).fadeOut("3000","swing");
+//				$("img").eq(count).fadeIn("3000","swing");
+//				console.log(count)
+//		},3000)
+		function showImg(){
+		let count = 0;
+			setInterval(function(){
+			let num = count;
+			count++;
+			if(count>$("img").length-1){
+				count = 0;
+			}
+				$(".btn2 img").each(function(){
+//					$(".btn2 img").css("display","none")
+				});
+				$(".btn2 img").eq(num).fadeOut(2000,"swing");
+				$(".btn2 img").eq(count).fadeIn(2000,"swing");
+			},3000)
+		}
+		
+		window.onload =function(){
+			showImg();
+		}
+//		new Slider($(".btn2"),600,600,["img/157eddf3b299ad604c0dc6284b8f549ca2f0a487.jpg","img/070ae54200edb53ed3e056ad6198cf2b0cf16e1b.jpg","img/43770583be857e2b3b056c5c15b209a2e2354f4d.jpg"],
+//				10,"black","red",
+//				true,0.2,1000)
+
+//		$("img").each(function(){
+//			
+//		})
+</script>
+
+
+
+
+
+
+

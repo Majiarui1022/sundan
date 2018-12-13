@@ -1,0 +1,197 @@
+/*吹捧start*/
+			.guarantee_Box{
+				width: 100%;
+				background: #eff1f0;
+				margin-top:75px;
+			}
+			.guarantee{
+				width: 1200px;
+				margin:0 auto;
+			}
+			.guarantee ul{
+				overflow: hidden;
+			}
+			.guarantee li img{
+				vertical-align: middle;
+				margin-left: 40px;
+				margin-right: 20px;
+			}
+			.guarantee li span{
+				vertical-align: middle;
+			}
+			.guarantee li{
+				float: left;
+				width: 20%;
+				line-height:100px ;
+			}
+			.footer_Box .comtact_us li p{
+				font-size: 12px;
+			}
+			/*吹捧end*/
+			/*底部公共start*/
+			
+			
+			  
+			/*底部介绍start*/
+			.footer_Box{
+				width: 100%;
+				background: white;
+			}
+			footer{
+				width: 1200px;
+				margin:0 auto;
+			}
+			.contact_us{
+				overflow: hidden;
+				padding-top:12px;
+				padding-bottom: 20px;
+				border-bottom: 1px solid #e1e1e1;
+			}
+			.contact_us li{
+				float: left;
+				width:25%;
+			}
+			.contact_us li h4{
+				line-height: 64px;
+				font-size: 14px;
+			}
+			.contact_us li p{
+				line-height: 30px;
+			}
+			.contact_us li p img{
+				width: 12px;
+				height:12px;
+				display: inline-block;
+				margin-right: 5px;
+			}
+			.fotter_Bottom{
+				overflow: hidden;
+				border-bottom: 1px solid #e1e1e1;
+			}
+			.fotter_Bottom_Left{
+				width:830px;
+				float: left;
+			}
+			.fotter_Bottom_Left,.fotter_Bottom_Left_One{
+				float: left;
+			}
+			.fotter_Bottom_Left{
+				padding-top:5px;
+			}
+			.fotter_Bottom_Left .fotter_Bottom_Left_One p{
+				line-height: 40px;
+				color:#707070;
+				font-size:12px;
+			}
+			.fotter_Bottom_Left .fotter_Bottom_Left_One{
+				width: 25%;
+			}
+			.fotter_Bottom_Left_One div{
+				display: inline-block;
+			}
+			.Twoc{
+				font-weight: 600;						
+			}
+			.fotter_Bottom .fotter_Bottom_Left .fotter_Bottom_Left_One .onec{
+				font-size: 14px;
+				color:#313131;	
+				font-weight: 600;
+			}
+			/*右侧*/
+			.fotter_Bottom_Right{
+				width: 350px;
+				background: url(../img/footer_ji.png) scroll 40px center no-repeat;
+				float: right;	
+				margin-top:12px;
+				padding-bottom: 87px;
+			}
+			.fotter_Bottom_Right h3{
+				font-size: 14px;
+				color:#313131;
+				line-height: 40px;
+			}
+			.fotter_Bottom_Right p{
+				font-size: 12px;
+				color:#313131;
+				line-height: 24px;
+			}
+			.fotter_Bottom_Right ul{
+				float: left;
+			}
+			.fotter_Bottom_Right li{
+				line-height: 30px;
+				font-size: 12px;
+			}
+			.fotter_Bottom_Right ul{
+				margin-right: 75px;
+			}
+			.frindlinlk h5{
+				font-size: 14px;
+				color:#2f2f00;
+			}
+			.frindlinlk ul{
+				overflow: hidden;
+			}
+			.frindlinlk li{
+				float: left;
+				font-size: 12px;
+				color:#707070;
+				margin-right: 10px;
+				line-height: 45px;
+			}
+			.frindlinlk{
+				display: inline-block;
+				margin-top:45px;
+			}
+			/*版权*/
+			.copyright{
+				width: 1200px;
+				margin: 0 auto;
+				text-align: center;
+				margin-top:4px;
+			}
+			.copyright p{
+				line-height: 75px;
+				font-size: 12px;
+				color:#313131;
+			}
+			.copyright ul{
+				display: inline-block;
+				margin-bottom: 40px;
+				width: 1000px;
+			}
+			.copyright li{
+				float: left;
+				width: 170px;
+				padding-right: 1%;
+				line-height: 40px;
+				border-right: 1px solid #e1e1e1;
+			}
+			.copyright li img{
+				vertical-align: middle;
+				display: inline-block;
+				margin-left: 25px;
+				margin-right: 5px;
+			}
+			.copyright li span{
+				vertical-align: middle;
+			}
+			.copyright li:last-child{
+				border:0;
+			}
+			.er_father{
+				position: relative;
+				cursor: pointer;
+			}
+			.er_father .erweima{
+				position: absolute;
+				left: 0px;
+				top: -42px;
+				display: none;
+			}
+			.er_father .erweima img{
+				display: inline-block;
+				width: 100px;
+				height:100px;
+			}
+		

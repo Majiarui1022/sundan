@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/*鎻愮ず淇℃伅start*/
+.tag_menu {
+  width: 100%;
+  height: 145px;
+  padding: 40px 0px;
+  line-height: 33px;
+  background: white; }
+
+.tag_menuBox {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto; }
+
+.Your_Choice {
+  overflow: hidden;
+  margin-bottom: 10px; }
+  .Your_Choice dl {
+    overflow: hidden; }
+    .Your_Choice dl dt {
+      float: left;
+      color: #313131;
+      font-size: 14px;
+      font-weight: bold; }
+    .Your_Choice dl div {
+      float: left; }
+
+.Your_ChoiceOne {
+  border: 1px solid #e1e1e1;
+  font-size: 12px;
+  color: #313131;
+  padding: 0 0 0 10px;
+  margin-left: 5px; }
+
+.brand {
+  width: 100%;
+  height: 104px;
+  border: 1px solid #e1e1e1; }
+  .brand dl {
+    height: 40px;
+    overflow: hidden;
+    line-height: 40px; }
+    .brand dl dt {
+      background: #f5f5f5;
+      width: 120px;
+      float: left;
+      padding-left: 18px;
+      font-weight: bold; }
+    .brand dl dd {
+      width: 1052px;
+      float: left;
+      font-size: 12px;
+      border-top: 1px dashed #e1e1e1;
+      border-bottom: 1px dashed #e1e1e1;
+      padding: 6px 0; }
+      .brand dl dd span {
+        margin-right: 65px;
+        display: inline-block;
+        color: #313131; }
+    .brand dl .brand_ddOne {
+      padding-left: 25px; }
+  .brand .brand_dlTwo {
+    height: 65px; }
+    .brand .brand_dlTwo dt {
+      height: 64px; }
+    .brand .brand_dlTwo dd {
+      padding-left: 10px; }
+      .brand .brand_dlTwo dd span {
+        width: 117px;
+        height: 47px;
+        border: 1px solid #e1e1e1;
+        text-align: center;
+        line-height: 47px;
+        margin: 0; }
+
+/*鎻愮ず淇℃伅end*/
+/*鍟嗗搧鍒楄〃start*/
+.product_listBOx {
+  width: 100%; }
+  .product_listBOx .product_list {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 28px; }
+    .product_listBOx .product_list .product_filtrate {
+      width: 100%;
+      background: white;
+      overflow: hidden; }
+      .product_listBOx .product_list .product_filtrate div {
+        float: left; }
+      .product_listBOx .product_list .product_filtrate span {
+        display: inline-block;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-right: 1px solid #e1e1e1;
+        line-height: 43px;
+        text-align: center;
+        font-size: 12px; }
+
+.product_listzhuti {
+  margin-top: 10px; }
+  .product_listzhuti ul {
+    overflow: hidden; }
+    .product_listzhuti ul li {
+      position: relative;
+      width: 277px;
+      height: 376px;
+      background: white;
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 40px;
+      cursor: pointer; }
+      .product_listzhuti ul li .product_images {
+        margin: 0 40px; }
+        .product_listzhuti ul li .product_images img {
+          width: 200px;
+          height: 200px; }
+      .product_listzhuti ul li .goods_bq {
+        width: 100%;
+        height: 70px; }
+        .product_listzhuti ul li .goods_bq .bq_Left {
+          display: inline-block;
+          height: 17px;
+          line-height: 17px;
+          font-size: 12px;
+          padding: 0 5px;
+          margin-left: 10px; }
+        .product_listzhuti ul li .goods_bq .bq_Left:first-child {
+          border: 1px solid #eb2c3a;
+          color: #eb2c3a; }
+        .product_listzhuti ul li .goods_bq .bq_Left:last-child {
+          border: 1px solid #c1c1c1;
+          color: #c1c1c1; }
+      .product_listzhuti ul li .goods_name h3 {
+        padding-left: 10px;
+        height: 50px;
+        font-weight: 400;
+        line-height: 25px;
+        color: #313131;
+        overflow: hidden;
+        font-size: 14px; }
+      .product_listzhuti ul li .price_fatherbox {
+        width: 100%;
+        height: 50px;
+        overflow: hidden; }
+        .product_listzhuti ul li .price_fatherbox .price_box {
+          height: 100%;
+          float: left;
+          line-height: 50px;
+          padding-left: 20px; }
+          .product_listzhuti ul li .price_fatherbox .price_box ins {
+            color: #fc3637;
+            font-size: 14px;
+            text-decoration: none;
+            font-weight: bold; }
+      .product_listzhuti ul li .duibi {
+        position: absolute;
+        top: 45px;
+        right: 12px;
+        display: none; }
+        .product_listzhuti ul li .duibi a {
+          display: block;
+          width: 35px;
+          height: 35px;
+          line-height: 35px;
+          font-size: 12px;
+          border: 1px solid #e1e1e1;
+          text-align: center;
+          margin-bottom: 5px;
+          color: #c1c1c1; }
+        .product_listzhuti ul li .duibi a:first-child {
+          background: #00bbd7; }
+    .product_listzhuti ul li:nth-child(4n) {
+      margin-right: 0px; }
+
+/*鍟嗗搧鍒楄〃end*/
+
+/*# sourceMappingURL=gallery.css.map */
